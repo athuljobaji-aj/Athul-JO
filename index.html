@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Athul Jo | 2D & 3D Artist</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Ensures each section feels like a single, full page */
+			section { min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+			.inner { width: 100%; }
+			
+			/* Cleaned CSS for spotlight images */
+			.spotlight .image img {
+				display: block;
+				object-fit: cover;
+				width: 100%;
+				height: 100%;
+				min-height: 400px;
+			}
+			.profile-img img { 
+				border: 5px solid rgba(255,255,255,0.1); 
+				transition: transform 0.3s ease; 
+			}
+			.profile-img img:hover { transform: scale(1.05); }
+
+			/* Styling for the Video Container */
+			.video-wrapper {
+				position: relative;
+				padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+				height: 0;
+				overflow: hidden;
+				max-width: 100%;
+				background: #000;
+				margin-bottom: 2rem;
+			}
+			.video-wrapper iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body class="landing is-preload">
+
+		<div id="page-wrapper">
+
+				<header id="header" class="alt">
+						<h1><a href="index.html">Athul Jo</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="#banner">Home</a></li>
+											<li><a href="#one">About</a></li>
+											<li><a href="#two">2D Work</a></li>
+											<li><a href="#three">3D Work</a></li>
+											<li><a href="#unity">Unity Work</a></li>
+											<li><a href="#cta">Resume</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<section id="banner">
+						<div class="inner">
+							<h2>Athul Jo</h2>
+							<p>Welcome to my Portfolio Profile<br />
+							Professional 2D & 3D Artist<br />
+							Bringing digital concepts to life.</p>
+							<ul class="actions special">
+								<li><a href="#one" class="button primary scrolly">Start</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>About Me</h2>
+								<div class="image profile-img" style="margin-bottom: 2rem;">
+									<img src="images/Athuljo.png" alt="Athul Jo" style="border-radius: 50%; width: 250px; height: 250px; object-fit: cover;" />
+								</div>
+								<p>I am a creative artist specializing in digital 2D illustration and technical 3D modeling.<br />
+								I have professional experience using <b>Adobe Photoshop</b>, <b>Illustrator</b>, <br />
+								<b>Autodesk Maya</b>, <b>Blender</b>, and I also have knowledge of <b>Unity</b>.</p>
+								<h3 style="margin-bottom: 2rem;">Athul Jo</h3>
+							</header>
+							<ul class="actions special">
+								<li><a href="#two" class="button primary scrolly">Next: View 2D Work</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<section id="two" class="wrapper alt style2">
+						<div class="inner">
+							<section class="spotlight">
+								<div class="image"><img src="images/2d0.1.png" alt="Artwork 1" /></div>
+								<div class="content">
+									<h2>Game Environment Design</h2>
+									<p>Digital environment design created in Adobe Photoshop featuring stylized 2D assets.</p>
+								</div>
+							</section>
+							<section class="spotlight">
+								<div class="image"><img src="images/2d0.2.png" alt="Artwork 2" /></div>
+								<div class="content">
+									<h2>Landscape Illustration</h2>
+									<p>Atmospheric study focusing on lighting, mood, and digital painting techniques.</p>
+								</div>
+							</section>
+							<section class="spotlight">
+								<div class="image"><img src="images/2d0.3.png" alt="Artwork 3" /></div>
+								<div class="content">
+									<h2>Title & UI Concepts</h2>
+									<p>Integrating typography and concept art for game interfaces.</p>
+								</div>
+							</section>
+							<section class="spotlight">
+								<div class="image"><img src="images/2d0.4.png" alt="Artwork 4" /></div>
+								<div class="content">
+									<h2>Character Renders</h2>
+									<p>Full-body character concept art and vector graphics work.</p>
+									<ul class="actions" style="margin-top: 2rem;">
+										<li><a href="#three" class="button primary scrolly">Next: View 3D Work</a></li>
+									</ul>
+								</div>
+							</section>
+						</div>
+					</section>
+
+				<section id="three" class="wrapper alt style2">
+						<div class="inner">
+							<header class="major" style="text-align: center; padding: 4em 0 2em 0;">
+								<h2>3D Portfolio</h2>
+								<p>Modeling and rendering projects completed in Maya and Blender.</p>
+							</header>
+
+							<section class="spotlight">
+								<div class="image"><img src="images/3d0.1.png" alt="3D Work 1" /></div>
+								<div class="content">
+									<h2>3D Asset Modeling</h2>
+									<p>Detailed high-poly modeling and texture work.</p>
+								</div>
+							</section>
+
+							<section class="spotlight">
+								<div class="image"><img src="images/3d0.2.png" alt="3D Work 2" /></div>
+								<div class="content">
+									<h2>Character Sculpting</h2>
+									<p>Organic sculpting and retopology for animation.</p>
+								</div>
+							</section>
+
+							<section class="spotlight">
+								<div class="image"><img src="images/3d0.3.png" alt="3D Work 3" /></div>
+								<div class="content">
+									<h2>Environment Assets</h2>
+									<p>Hard-surface modeling for game environments.</p>
+								</div>
+							</section>
+
+							<section class="spotlight">
+								<div class="image"><img src="images/3d0.8.png" alt="3D Work 8" /></div>
+								<div class="content">
+									<h2>Final Renders</h2>
+									<p>Advanced lighting and cinematic rendering.</p>
+									<ul class="actions" style="margin-top: 2rem;">
+										<li><a href="#unity" class="button primary scrolly">Next: Unity Work</a></li>
+									</ul>
+								</div>
+							</section>
+						</div>
+					</section>
+
+				<section id="unity" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Unity Game Development</h2>
+								<p>Showcase of game mechanics and environments built in the Unity Engine.</p>
+							</header>
+							
+							<div class="video-wrapper">
+								<iframe src="https://player.vimeo.com/video/1132757385" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+							</div>
+
+							<ul class="actions special">
+								<li><a href="#cta" class="button primary scrolly">Next: My Resume</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>My Resume</h2>
+								<p>Software Skills: Photoshop | Illustrator | Maya | Blender | Unity</p>
+								<p>Phone: 8217230019</p>
+							</header>
+							<ul class="actions stacked">
+								<li><a href="2d3d Designer and Artist Resume.pdf" class="button fit primary" download>Download CV</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.instagram.com/athul_jo" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.artstation.com/athul_jo" class="icon brands fa-artstation"><span class="label">ArtStation</span></a></li>
+							<li><a href="mailto:your@email.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Athul Jo</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
